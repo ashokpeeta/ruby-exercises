@@ -45,11 +45,11 @@ RSpec.describe 'String Exercises' do
 
   describe 'uppercasing exercise' do
 
-    xit 'uppercases a word' do
+    it 'uppercases a word' do
       expect(uppercase('small')).to eq('SMALL')
     end
 
-    xit 'uppercases multiple words' do
+    it 'uppercases multiple words' do
       expect(uppercase('make me bigger')).to eq('MAKE ME BIGGER')
     end
   end
@@ -57,11 +57,11 @@ RSpec.describe 'String Exercises' do
 
   describe 'downcasing exercise' do
 
-    xit 'downcases a word' do
+    it 'downcases a word' do
       expect(downcase('LARGE')).to eq('large')
     end
 
-    xit 'downcases multiple words' do
+    it 'downcases multiple words' do
       expect(downcase('MAKE ME SMALLER')).to eq('make me smaller')
     end
   end
